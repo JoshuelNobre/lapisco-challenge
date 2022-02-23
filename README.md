@@ -69,7 +69,7 @@ virtualenv venv
 ```
 
 ### Executando o projeto
-## É necessário ter PostgreSQL !
+#### É necessário ter PostgreSQL !
 ```shell
 # instale todas as dependências com
 pip install -r requirements.txt
