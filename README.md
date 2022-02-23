@@ -44,7 +44,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 --- 
 
-### Como executar o projeto
+## ⌨ Como executar o projeto
 
 ```sh
 # clone o repositório
