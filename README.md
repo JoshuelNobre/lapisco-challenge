@@ -47,10 +47,10 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 ```sh
 # clone o repositório
-$ git clone git@github.com:JoshuelNobre/lapisco-challenge.git
+git clone git@github.com:JoshuelNobre/lapisco-challenge.git
 
 # entre no diretório
-$ cd lapisco-challenge
+cd lapisco-challenge
 ```
 
 ### Ambiente virtual
@@ -63,14 +63,14 @@ virtualenv venv
 
 # ative o ambiente virtual, no Windows ativo da seguinte forma
 .\venv\Scripts\activate.ps1
-
-# instale todas as dependências com
-pip install -r requirements.txt
 ```
 
 ### Executando o projeto
 
 ```shell
+# instale todas as dependências com
+pip install -r requirements.txt
+
 # execute usando o comando
 uvicorn src.main:app
 ```
