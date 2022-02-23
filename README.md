@@ -7,7 +7,7 @@
 - [Preview](#-Preview)
 - [Sobre](#-Sobre)
 - [Tecnologias utilizadas](#-Tecnologias-utilizadas)
-- [Como executar o projeto](#-Configuração-do-projeto)
+- [Como executar o projeto](#-Como-executar-o-projeto)
 
 
 ---
@@ -44,7 +44,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 --- 
 
-### Configuração do projeto
+### Como executar o projeto
 
 ```sh
 # clone o repositório
