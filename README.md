@@ -48,7 +48,7 @@ O projeto está desenvolvido utilizando as seguintes tecnologias:
 
 ```sh
 # clone o repositório
-git clone git@github.com:JoshuelNobre/lapisco-challenge.git
+git clone https://github.com/JoshuelNobre/lapisco-challenge.git
 
 # entre no diretório
 cd lapisco-challenge
@@ -64,10 +64,12 @@ virtualenv venv
 
 # ative o ambiente virtual, no Windows ativo da seguinte forma
 .\venv\Scripts\activate.ps1
+# ou
+.\venv\Scripts\activate.bat
 ```
 
 ### Executando o projeto
-
+## É necessário ter PostgreSQL !
 ```shell
 # instale todas as dependências com
 pip install -r requirements.txt
