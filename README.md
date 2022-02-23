@@ -68,7 +68,7 @@ virtualenv venv
 .\venv\Scripts\activate.bat
 ```
 
-### É necessário ter PostgreSQL na sua máquina, e configurar seu usuário no arquivo config.py ! 
+### É necessário ter PostgreSQL em sua máquina, e configurar seu usuário e senha PostgreSQL no arquivo config.py, como mostra na imagem a seguir:
 #### obs: O correto seria utilizar dotenv para ocultar dados sensíveis como seu usuário e senha do postgres
 <p align="center">
   <img src="./images/config-database.png" width="700" >
