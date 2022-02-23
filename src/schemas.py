@@ -1,6 +1,7 @@
 from datetime import date, datetime
 from pydantic import BaseModel
-from typing import Optional, List
+from typing import Optional
+
 
 class User(BaseModel):
     id: Optional[int] = None
@@ -15,15 +16,17 @@ class User(BaseModel):
     class Config:
         orm_mode = True
 
+
 class UserSimple(BaseModel):
     name: str
     email: str
     gender: str
     birth_data: date
     telephone: str
-    
+
     class Config:
         orm_mode = True
+
 
 class UserEdit(BaseModel):
     name: str

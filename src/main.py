@@ -16,16 +16,13 @@ Simple CRUD developed for the LAPISCO challenge. 🚀
 * **Delete user**.
 
 """
-tags_metadata = [
-    {
-        "name": "user",
-        "description": "Operations with users."
-    }
-]
+tags_metadata = [{"name": "user", "description": "Operations with users."}]
 
-app = FastAPI(title='CHALLENGE - LAPISCO - API',
+app = FastAPI(
+    title="CHALLENGE - LAPISCO - API",
     description=description,
-    openapi_tags=tags_metadata)
+    openapi_tags=tags_metadata,
+)
 
 # User route
 app.include_router(user_router.router)

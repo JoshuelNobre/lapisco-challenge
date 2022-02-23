@@ -1,10 +1,17 @@
-from sqlalchemy import Column, Integer, String, Float, Boolean, ForeignKey, DateTime, Date
+from sqlalchemy import (
+    Column,
+    Integer,
+    String,
+    DateTime,
+    Date,
+)
 
 from src.config import Base
 from sqlalchemy.sql import func
 
+
 class User(Base):
-    __tablename__ = 'user'
+    __tablename__ = "user"
 
     id = Column(Integer, primary_key=True, index=True)
     created = Column(DateTime(timezone=True), server_default=func.now())
