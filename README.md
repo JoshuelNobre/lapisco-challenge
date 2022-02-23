@@ -68,13 +68,12 @@ virtualenv venv
 .\venv\Scripts\activate.bat
 ```
 
-### Executando o projeto
 #### É necessário ter PostgreSQL na sua máquina, e configurar seu usuário no arquivo config.py !
 <p align="center">
   <img src="./images/config-database.png" width="700" >
 </p>
 
-
+### Executando o projeto
 ```shell
 # instale todas as dependências com
 pip install -r requirements.txt
